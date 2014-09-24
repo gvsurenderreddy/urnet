@@ -1,0 +1,4 @@
+Name = myusername
+AddressFamily = ipv4
+Interface = tun0
+ConnectTo = okso-server
