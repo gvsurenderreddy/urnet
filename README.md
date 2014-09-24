@@ -11,7 +11,7 @@ Clone this repository as /etc/tinc/urnet
 
 ## Your setup
 
-Choose a free IP number (the x in 10.131.0.x). The script below will show you currently used IP addresses:
+Choose a free IP number (the X in 10.131.0.X). The script below will show you currently used IP addresses:
 `/etc/tinc/urnet/tools/hosts.py`
 
 Two solutions next: run the setup script or create your files by hand.
