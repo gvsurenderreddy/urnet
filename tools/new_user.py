@@ -31,3 +31,7 @@ open('/etc/tinc/urnet/hosts/{}'.format(name), 'w').write(
 
 os.system('tincd -n urnet -K4096')
 
+open('/etc/tinc/urnet/tinc-up', 'w').write(
+'''ifconfig $INTERFACE 10.131.0.{} netmask 255.255.255.0
+'''.format(ip_number))
+
