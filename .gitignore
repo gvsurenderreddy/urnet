@@ -55,3 +55,4 @@ target/
 
 # Tinc setup
 tinc.conf
+rsa_key.priv
